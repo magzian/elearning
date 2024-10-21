@@ -28,6 +28,7 @@
         <link href="{{asset('import/assets/css/style.css')}}" rel="stylesheet">
 
         <title>{{ $title ?? 'eLearning' }}</title>
+        @livewireStyles
     </head>
     <body>
 
@@ -167,5 +168,6 @@
 
     <!-- Template Javascript -->
     <script src="{{ asset('import/assets/js/main.js') }}"></script>
+    @livewireScripts
     </body>
 </html>
