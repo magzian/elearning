@@ -10,6 +10,7 @@ use App\Http\Controllers\AdminController;
 use App\Livewire\LandingPage\Testimonial;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\TeacherController;
+use App\Livewire\LandingPage\Landing;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,14 +23,17 @@ use App\Http\Controllers\TeacherController;
 |
 */
 
-Route::get('/', function () {
+/* Route::get('/', function () {
     return view('landing-page/landing');
-});
+}); */
+
+Route::get('/', Landing::class);
 
 Auth::routes();
 
 
 //landing page routes
+
 Route::get('/about-us', AboutUs::class);
 Route::get('/courses', Courses::class);
 Route::get('/contacts', Contact::class);
