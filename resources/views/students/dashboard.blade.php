@@ -26,7 +26,7 @@
                                 <input class="form-control rounded-5 px-5 mobile-search-control" type="text" placeholder="Search">
                                 <span class="material-icons-outlined position-absolute ms-3 translate-middle-y start-0 top-50">search</span>
                                 <span class="material-icons-outlined position-absolute me-3 translate-middle-y end-0 top-50 mobile-search-close">close</span>
-                               </div>
+                              </div>
                             </div>
                             <div class="card-body search-content">
                               <p class="search-title">Recent Searches</p>
@@ -76,10 +76,10 @@
                                 </div>
                               </div>
                 
-                              <hr>
-                              <p class="search-title">Members</p>
+                              {{-- <hr>
+                              <p class="search-title">Members</p> --}}
                 
-                              <div class="search-list d-flex flex-column gap-2">
+                              {{-- <div class="search-list d-flex flex-column gap-2">
                                 <div class="search-list-item d-flex align-items-center gap-3">
                                   <div class="memmber-img">
                                     <img src="https://placehold.co/110x110/png" width="32" height="32" class="rounded-circle" alt="">
@@ -107,11 +107,11 @@
                                   </div>
                                 </div>
                 
-                              </div>
+                              </div> --}}
                             </div>
-                            <div class="card-footer text-center bg-transparent">
+                            {{-- <div class="card-footer text-center bg-transparent">
                               <a href="javascript:;" class="btn w-100">See All Search Results</a>
-                            </div>
+                            </div> --}}
                           </div>
                         </div>
                       </div>
@@ -121,9 +121,9 @@
                         <a class="nav-link" href="javascript:;"><i class="material-icons-outlined">search</i></a>
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="avascript:;" data-bs-toggle="dropdown"><img src="assets/images/county/02.png" width="22" alt="">
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end">
+                        {{-- <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="avascript:;" data-bs-toggle="dropdown"><img src="assets/images/county/02.png" width="22" alt="">
+                        </a> --}}
+                        {{-- <ul class="dropdown-menu dropdown-menu-end">
                           <li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="assets/images/county/01.png" width="20" alt=""><span class="ms-2">English</span></a>
                           </li>
                           <li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="assets/images/county/02.png" width="20" alt=""><span class="ms-2">Catalan</span></a>
@@ -140,13 +140,13 @@
                           </li>
                           <li><a class="dropdown-item d-flex align-items-center py-2" href="javascript:;"><img src="assets/images/county/08.png" width="20" alt=""><span class="ms-2">Hindi</span></a>
                           </li>
-                        </ul>
+                        </ul> --}}
                       </li>
               
                       <li class="nav-item dropdown position-static d-md-flex d-none">
-                        <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-bs-auto-close="outside"
-                        data-bs-toggle="dropdown" href="javascript:;"><i class="material-icons-outlined">done_all</i></a>
-                        <div class="dropdown-menu dropdown-menu-end mega-menu shadow-lg p-4 p-lg-5">
+                        {{-- <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-bs-auto-close="outside"
+                        data-bs-toggle="dropdown" href="javascript:;"><i class="material-icons-outlined">done_all</i></a> --}}
+                        {{-- <div class="dropdown-menu dropdown-menu-end mega-menu shadow-lg p-4 p-lg-5">
                           <div class="mega-menu-widgets">
                            <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-4 g-lg-5">
                               <div class="col">
@@ -279,12 +279,12 @@
                               </div>
                            </div><!--end row-->
                           </div>
-                        </div>
+                        </div> --}}
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-bs-auto-close="outside"
-                          data-bs-toggle="dropdown" href="javascript:;"><i class="material-icons-outlined">apps</i></a>
-                        <div class="dropdown-menu dropdown-menu-end dropdown-apps shadow-lg p-3">
+                        {{-- <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-bs-auto-close="outside"
+                          data-bs-toggle="dropdown" href="javascript:;"><i class="material-icons-outlined">apps</i></a> --}}
+                        {{-- <div class="dropdown-menu dropdown-menu-end dropdown-apps shadow-lg p-3">
                           <div class="border rounded-4 overflow-hidden">
                             <div class="row row-cols-3 g-0 border-bottom">
                               <div class="col border-end">
@@ -418,7 +418,7 @@
                               </div>
                             </div><!--end row-->
                           </div>
-                        </div>
+                        </div> --}}
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle dropdown-toggle-nocaret position-relative" data-bs-auto-close="outside"
@@ -426,7 +426,7 @@
                           <span class="badge-notify">5</span>
                         </a>
                         <div class="dropdown-menu dropdown-notify dropdown-menu-end shadow">
-                          <div class="px-3 py-1 d-flex align-items-center justify-content-between border-bottom">
+                          {{-- <div class="px-3 py-1 d-flex align-items-center justify-content-between border-bottom">
                             <h5 class="notiy-title mb-0">Notifications</h5>
                             <div class="dropdown">
                               <button class="btn btn-secondary dropdown-toggle dropdown-toggle-nocaret option" type="button"
@@ -451,9 +451,9 @@
                                       class="material-icons-outlined fs-6">leaderboard</i>Reports</a></div>
                               </div>
                             </div>
-                          </div>
+                          </div> --}}
                           <div class="notify-list">
-                            <div>
+                            {{-- <div>
                               <a class="dropdown-item border-bottom py-2" href="javascript:;">
                                 <div class="d-flex align-items-center gap-3">
                                   <div class="">
@@ -469,8 +469,8 @@
                                   </div>
                                 </div>
                               </a>
-                            </div>
-                            <div>
+                            </div> --}}
+                            {{-- <div>
                               <a class="dropdown-item border-bottom py-2" href="javascript:;">
                                 <div class="d-flex align-items-center gap-3">
                                   <div class="user-wrapper bg-primary text-primary bg-opacity-10">
@@ -486,8 +486,8 @@
                                   </div>
                                 </div>
                               </a>
-                            </div>
-                            <div>
+                            </div> --}}
+{{--                             <div>
                               <a class="dropdown-item border-bottom py-2" href="javascript:;">
                                 <div class="d-flex align-items-center gap-3">
                                   <div class="">
@@ -503,8 +503,8 @@
                                   </div>
                                 </div>
                               </a>
-                            </div>
-                            <div>
+                            </div> --}}
+{{--                             <div>
                               <a class="dropdown-item border-bottom py-2" href="javascript:;">
                                 <div class="d-flex align-items-center gap-3">
                                   <div class="">
@@ -520,8 +520,8 @@
                                   </div>
                                 </div>
                               </a>
-                            </div>
-                            <div>
+                            </div> --}}
+{{--                             <div>
                               <a class="dropdown-item border-bottom py-2" href="javascript:;">
                                 <div class="d-flex align-items-center gap-3">
                                   <div class="">
@@ -537,8 +537,8 @@
                                   </div>
                                 </div>
                               </a>
-                            </div>
-                            <div>
+                            </div> --}}
+{{--                             <div>
                               <a class="dropdown-item py-2" href="javascript:;">
                                 <div class="d-flex align-items-center gap-3">
                                   <div class="user-wrapper bg-danger text-danger bg-opacity-10">
@@ -554,16 +554,16 @@
                                   </div>
                                 </div>
                               </a>
-                            </div>
+                            </div> --}}
                           </div>
                         </div>
                       </li>
-                      <li class="nav-item d-md-flex d-none">
+                      {{-- <li class="nav-item d-md-flex d-none">
                         <a class="nav-link position-relative" data-bs-toggle="offcanvas" href="#offcanvasCart"><i
                             class="material-icons-outlined">shopping_cart</i>
                           <span class="badge-notify">8</span>
                         </a>
-                      </li>
+                      </li> --}}
                       <li class="nav-item dropdown">
                         <a href="javascrpt:;" class="dropdown-toggle dropdown-toggle-nocaret" data-bs-toggle="dropdown">
                            <img src="https://placehold.co/110x110/png" class="rounded-circle p-1 border" width="45" height="45" alt="">
