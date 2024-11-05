@@ -14,6 +14,7 @@
     <link href="{{asset('dashboard/assets/css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <!--main css-->
     <link href="{{asset('dashboard/assets/css/bootstrap-extended.css')}}" rel="stylesheet">
     <link href="{{asset('sass/main.css')}}" rel="stylesheet">
