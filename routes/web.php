@@ -1,17 +1,21 @@
 <?php
 
+use App\Livewire\Admin\Dashboard;
+use App\Livewire\MyPageComponent;
 use App\Livewire\LandingPage\Team;
+use App\Livewire\Students\MyCourses;
 use Illuminate\Support\Facades\Auth;
 use App\Livewire\LandingPage\AboutUs;
 use App\Livewire\LandingPage\Contact;
 use App\Livewire\LandingPage\Courses;
+use App\Livewire\LandingPage\Landing;
 use Illuminate\Support\Facades\Route;
+use App\Livewire\Students\StudentCoures;
+
 use App\Http\Controllers\AdminController;
 use App\Livewire\LandingPage\Testimonial;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\TeacherController;
-use App\Livewire\Admin\Dashboard;
-use App\Livewire\LandingPage\Landing;
 
 /*
 |--------------------------------------------------------------------------
@@ -47,3 +51,9 @@ Route::get('/teacher/dashboard', [TeacherController::class, 'dashboard'])->name(
 Route::get('/student/dashboard', [StudentController::class, 'dashboard'])->name('student.dashboard')->middleware('auth');
  
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+//student dashboard routes
+Route::get('/my-courses', MyCourses::class)->name('my-courses');
+
+
+Route::get('/my-page', MyPageComponent::class)->name('my.page');

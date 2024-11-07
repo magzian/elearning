@@ -24,7 +24,8 @@
     <link href="{{asset('sass/bordered-theme.css')}}" rel="stylesheet">
     <link href="{{asset('sass/responsive.css')}}" rel="stylesheet">        
 
-        <title>{{ $title ?? 'Page Title' }}</title>
+    <title>{{ $title ?? 'Page Title' }}</title>
+    @livewireStyles
     </head>
 
         <body>
@@ -50,4 +51,5 @@
         <script>
             new PerfectScrollbar(".user-list")
         </script>
+        @livewireScripts
     </body>
